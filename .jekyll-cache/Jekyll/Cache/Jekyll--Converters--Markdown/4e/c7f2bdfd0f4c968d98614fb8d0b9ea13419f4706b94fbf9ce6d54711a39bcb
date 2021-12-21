@@ -1,0 +1,10 @@
+I"I<h3 id="배열을-생성하는-여러가지-방법들">배열을 생성하는 여러가지 방법들</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const arr1 = new Array();
+const arr2 = []
+const arr3 = [1,2,3,4,5]
+const arr4 = new Array(5); 
+const arr5 = new Array(5).fill(5);
+const arr6 =  Array.from(Array(5), (val, idx) =&gt; { return idx+1})
+</code></pre></div></div>
+<p>6번째 방법은 잘 몰랐던 방법인데, 두번째 인자값에 함수를 넣어 로직을 통해 배열을 생성할 수 있다고 한다.</p>
+:ET
